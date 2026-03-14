@@ -7,6 +7,7 @@
   cpio,
   elfutils,
   flex,
+  git,
   gmp,
   kmod,
   libmpc,
@@ -73,6 +74,7 @@ usedLLVMPackages.stdenv.mkDerivation {
     cpio
     elfutils
     flex
+    git
     gmp
     kmod
     libmpc
